@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/life_fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/cancel_task"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="50dp"
+        android:background="#FF4081"
+        android:gravity="center"
+        android:text="cancel task"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/timeout_task"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="right|center_vertical"
+        android:layout_margin="50dp"
+        android:background="#000"
+        android:gravity="center"
+        android:text="超时任务测试"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/lift_task"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_margin="50dp"
+        android:background="#6f5fff"
+        android:gravity="center"
+        android:text="生命周期任务"
+        android:textColor="#fff" />
+
+    <TextView
+        android:id="@+id/start_task"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:layout_margin="50dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="start task"
+        android:textColor="#fff" />
+
+</FrameLayout>
