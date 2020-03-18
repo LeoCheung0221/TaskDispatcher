@@ -39,7 +39,6 @@ public class LifeFragment extends Fragment {
         TaskDispatcher.runOnUIThread(new Runnable() {
             @Override
             public void run() {
-
                 Log.i("LifeFragment", "runTask no life");
             }
         }, 5000);
